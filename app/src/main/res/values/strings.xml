@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuizFlagApp</string>
+    <string name="number_of_choice">Số button trả lời</string>
+    <string name="number_of_choice_description">Hiển thị 2,4,6,8 button</string>
+    <string name="word_regions">Khu vực</string>
+    <string name="word_regions_description">Khu vực để đặt câu hỏi</string>
+    <string name="question">Câu hỏi %1$d of %2$d</string>
+    <string name="image_description">Hình ảnh lá cờ hiện tại trong câu hỏi</string>
+    <string name="guess_country">Bạn chọn nước nào?</string>
+    <string name="default_regions">North America</string>
+    <string name="default_region_message">Chọn mặc định là North America</string>
+    <string name="reset_quiz">Reset quiz</string>
+    <string name="results">%1$d guesses, %2$.02f%% correct</string>
+    <string name="incorrect_answer">Trả lời sai</string>
+</resources>

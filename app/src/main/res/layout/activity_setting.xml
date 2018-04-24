@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mrphonglinh.quizflagapp.SettingActivity">
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/btn_chon_socau"
+            style="@style/style_button"
+            android:text="Số câu trả lời"
+            android:background="@drawable/selector_setting"/>
+        <TextView
+            android:id="@+id/btn_chon_vung"
+            style="@style/style_button"
+            android:text="Châu lục"
+            android:background="@drawable/selector_setting"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/btn_chon_amthanh"
+            style="@style/style_button"
+            android:text="Chọn âm thanh"
+            android:background="@drawable/selector_setting"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+-->
+    <fragment
+        android:id="@+id/fr_setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.mrphonglinh.quizflagapp.fragment.FragmentSetting"
+        tools:layout="@layout/fragment_setting"/>
+</RelativeLayout>

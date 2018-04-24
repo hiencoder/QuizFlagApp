@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_quiz"
+    tools:context="com.example.mrphonglinh.quizflagapp.PlayActivity">
+    <TextView
+        android:id="@+id/txt_number_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:id="@+id/img_flag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/image_description"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guess_country"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:id="@+id/layout_row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/btn_dapan1"
+            style="@style/style_button_dapan" />
+        <TextView
+            android:id="@+id/btn_dapan2"
+            android:layout_marginLeft="10dp"
+            style="@style/style_button_dapan" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/btn_dapan3"
+            style="@style/style_button_dapan" />
+        <TextView
+            android:id="@+id/btn_dapan4"
+            android:layout_marginLeft="10dp"
+            style="@style/style_button_dapan" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/btn_dapan5"
+            style="@style/style_button_dapan" />
+        <TextView
+            android:id="@+id/btn_dapan6"
+            android:layout_marginLeft="10dp"
+            style="@style/style_button_dapan" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_row4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/btn_dapan7"
+            style="@style/style_button_dapan" />
+        <TextView
+            android:id="@+id/btn_dapan8"
+            android:layout_marginLeft="10dp"
+            style="@style/style_button_dapan" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_correct_answer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_play"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+</LinearLayout>

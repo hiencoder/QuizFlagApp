@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Dùng để lưu sharedpreferences-->
+    <ListPreference
+        android:entries="@array/gueses_list"
+        android:entryValues="@array/gueses_list"
+        android:key="pref_numberOfChoice"
+        android:title="@string/number_of_choice"
+        android:summary="@string/number_of_choice_description"
+        android:persistent="true"
+        android:defaultValue="4"/>
+
+    <MultiSelectListPreference
+        android:entries="@array/region_list_for_setting"
+        android:entryValues="@array/region_list"
+        android:key="pref_regionsToInclude"
+        android:title="@string/word_regions"
+        android:summary="@string/word_regions_description"
+        android:persistent="true"
+        android:defaultValue="@array/region_list"/>
+</PreferenceScreen>
